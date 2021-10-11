@@ -32463,7 +32463,7 @@ a:hover {
 
 .menu-state-bg .menu-item .menu-link.active {
     transition: color .2s ease, background-color .2s ease;
-    background-color: rgba(245, 248, 250, .8)
+    /* background-color: rgba(245, 248, 250, .8) */
 }
 
 .menu-hover-primary .menu-item .menu-link:hover:not(.disabled):not(.active),
@@ -33231,63 +33231,64 @@ a:hover {
 .menu-hover-title-primary .menu-item .menu-link:hover:not(.disabled):not(.active),
 .menu-hover-title-primary .menu-item.hover>.menu-link:not(.disabled):not(.active) {
     transition: color .2s ease, background-color .2s ease;
-    color: #009ef7
+    color: #181c32;
 }
 
 .menu-hover-title-primary .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-title,
 .menu-hover-title-primary .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-title {
-    color: #009ef7
+    color: #181c32;
 }
 
 .menu-show-title-primary .menu-item.here>.menu-link,
 .menu-show-title-primary .menu-item.show>.menu-link {
     transition: color .2s ease, background-color .2s ease;
-    color: #009ef7
+    color: #181c32;
 }
 
 .menu-show-title-primary .menu-item.here>.menu-link .menu-title,
 .menu-show-title-primary .menu-item.show>.menu-link .menu-title {
-    color: #009ef7
+    color: #181c32;
 }
 
 .menu-active-title-primary .menu-item .menu-link.active {
     transition: color .2s ease, background-color .2s ease;
-    color: #009ef7
+    color: ##181c32;
 }
 
 .menu-active-title-primary .menu-item .menu-link.active .menu-title {
-    color: #009ef7
+    color: #181c32;
 }
 
 .menu-state-title-primary .menu-item .menu-link:hover:not(.disabled):not(.active),
 .menu-state-title-primary .menu-item.hover>.menu-link:not(.disabled):not(.active) {
     transition: color .2s ease, background-color .2s ease;
-    color: #009ef7
+    color: #181c32;
 }
 
 .menu-state-title-primary .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-title,
 .menu-state-title-primary .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-title {
-    color: #009ef7
+    color: #181c32;
 }
 
 .menu-state-title-primary .menu-item.here>.menu-link,
 .menu-state-title-primary .menu-item.show>.menu-link {
     transition: color .2s ease, background-color .2s ease;
-    color: #009ef7
+    color: #181c32;
 }
 
 .menu-state-title-primary .menu-item.here>.menu-link .menu-title,
 .menu-state-title-primary .menu-item.show>.menu-link .menu-title {
-    color: #009ef7
+    color: #181c32;
 }
 
 .menu-state-title-primary .menu-item .menu-link.active {
     transition: color .2s ease, background-color .2s ease;
-    color: #009ef7
+    color: #181c32
 }
 
 .menu-state-title-primary .menu-item .menu-link.active .menu-title {
-    color: #009ef7
+    color: #181c32;
+    font-weight: 600;
 }
 
 .menu-hover-icon-primary .menu-item .menu-link:hover:not(.disabled):not(.active),
@@ -33297,7 +33298,7 @@ a:hover {
 
 .menu-hover-icon-primary .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon i,
 .menu-hover-icon-primary .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon i {
-    color: #009ef7
+    color: #181c32;
 }
 
 .menu-hover-icon-primary .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon .svg-icon svg [fill]:not(.permanent):not(g),
