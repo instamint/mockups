@@ -48626,3 +48626,7 @@ body {
     z-index: 100;
     padding: 10px;
 }
+.nft-insta-icon .svg-icon.svg-icon-3 svg {
+    height: 15px!important;
+    width: 15px!important;
+}
