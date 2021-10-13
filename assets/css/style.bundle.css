@@ -48630,3 +48630,8 @@ body {
     height: 15px!important;
     width: 15px!important;
 }
+.search-filter-custom .form-select.form-select-white {
+    background-color: #f9fafb;
+    border-color: #f9fafb;
+    color: #181c32;
+}
