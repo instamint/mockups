@@ -1846,7 +1846,40 @@
 						<!--end::Container-->
 					</div>
 					<!--begin::Header-->
-				
+					<div id="kt_header" class="header">
+
+						<!--begin::Container-->
+						<div class="container-xxl d-flex align-items-stretch justify-content-between" id="kt_header_container">
+							<!--begin::Page title-->
+							<div class="page-title d-flex flex-column align-items-start justify-content-center flex-wrap me-lg-2 pb-5 pb-lg-0" data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', lg: '#kt_header_container'}">
+								<!--begin::Heading-->
+								<h1 class="d-flex flex-column text-dark fw-bolder my-0 fs-1">Portfolio 
+									
+								<!--end::Heading-->
+							</div>
+							<!--end::Page title=-->
+							<!--begin::Wrapper-->
+							<div class="d-flex align-items-center ms-n2 me-2">
+								<!--begin::Aside mobile toggle-->
+							  
+								<!--end::Aside mobile toggle-->
+								<!--begin::Logo-->
+								<div class="col-md-12 col-sm-12 pl-md-0">
+									<select class="form-select form-select-solid" name="layout-builder[layout][content][width]" data-control="select2" data-hide-search="true">
+										<option value="fluid">Select Account</option>
+										<option value="fixed" selected="selected">Select Account</option>
+									</select>
+								</div>
+								<!--end::Logo-->
+							</div>
+							<!--end::Wrapper-->
+							<!--begin::Topbar-->
+							
+						   
+							<!--end::Topbar-->
+						</div>
+						<!--end::Container-->
+					</div>
 					<!--end::Header-->
 					<!--begin::Content-->
 					<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
@@ -1914,6 +1947,12 @@
 													
 														<!--begin::Actions-->
 														<div class="d-flex my-0">
+															<select name="status" data-control="select2" data-hide-search="true" data-placeholder="Filter" class="form-select form-select-white form-select-sm w-150px me-5">
+																<option value="1">Recently Updated</option>
+																<option value="2">Last Month</option>
+																<option value="3">Last Quarter</option>
+																<option value="4">Last Year</option>
+															</select>
 															<!--begin::Select-->
 															<select name="status" data-control="select2" data-hide-search="true" data-placeholder="Filter" class="form-select form-select-white form-select-sm w-150px me-5">
 																<option value="1">Recently Updated</option>
@@ -1950,17 +1989,7 @@
 												<span class="card-label fw-bolder fs-3 mb-1">Holdings</span>
 												
 											</h3>
-											<!-- <div class="card-toolbar" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="hover" title="Click to add a user">
-												<a href="#" class="btn btn-sm btn-light btn-active-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_invite_friends">
-												
-													<span class="svg-icon svg-icon-3">
-														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-															<rect opacity="0.5" x="11.364" y="20.364" width="16" height="2" rx="1" transform="rotate(-90 11.364 20.364)" fill="black" />
-															<rect x="4.36396" y="11.364" width="16" height="2" rx="1" fill="black" />
-														</svg>
-													</span>
-													New Member</a>
-											</div> -->
+										
 										</div>
 										<!--end::Header-->
 										<!--begin::Body-->
